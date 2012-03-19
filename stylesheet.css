@@ -33,7 +33,7 @@ nav li {
 nav ul{
 	text-align:center;
 	margin-top:-38px;
-	margin-left:80px;
+	margin-left:120px;
 }
 
 nav a{
@@ -116,6 +116,20 @@ nav img {
 	float:left;
 	margin-left:25px;
 	margin-top:-25px;
+}
+
+#studentactivities p{
+	font-size:14px;
+	clear:both;
+	margin-top:10px;
+	background-color:#DEDEDE;
+	font-family:"BonvenoCFLight", Arial, sans-serif;	
+	width:100%;
+	display:table;
+}
+
+#studentactivities img{
+	clear:both;
 }
 
 #buggy-text{
