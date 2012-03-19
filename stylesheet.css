@@ -1,0 +1,293 @@
+body{
+	background-image:url('images/cross_scratches.png');
+	font-family:"CrimsonRoman", Georgia, serif;
+}
+
+header {
+	font-family:"BonvenoCFLight", Arial, sans-serif;
+	margin-top:45px;
+}
+
+header img{
+	width:20%;
+	height:20%;
+}
+
+nav{
+	font-family:"BonvenoCFLight", Arial, sans-serif;
+	position:fixed;
+	top:0px;
+	background-color:#DEDEDE;
+	height:35px;
+	width:100%;
+	margin-left:-8px;
+	display:inline;
+}
+
+nav li {
+	display:inline;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+nav ul{
+	text-align:center;
+	margin-top:-38px;
+	margin-left:80px;
+}
+
+nav a{
+	text-decoration:none;
+	color:black;
+}
+
+nav a:hover{
+	text-decoration:underline;
+	color:black;
+}
+
+nav img {
+	padding:10px;
+}
+
+#main {
+	background-color:#003F87;
+	margin-left:-8px;
+	margin-right:-8px;
+	padding-bottom: 15px;
+	display:table;
+}
+
+#main-content {
+	margin-left:70px;
+	color:white;
+	padding-top:15px;
+	width:65%;
+	float:left;
+}
+
+#main p{
+	margin-left:70px;
+	margin-right:70px;
+	font-size:20px;
+	color:white;
+}
+
+#weather {
+	display:inline;
+	float:right;
+	padding-right:70px;
+	padding-top:25px;
+}
+
+#contact{
+	background-color:#DEDEDE;
+	display:table;
+	margin-left:-8px;
+	margin-right:-8px;
+	margin-top:-30px;
+	font-family:"BonvenoCFLight", Arial, sans-serif;
+}
+
+#contact h2 {
+	padding-top:20px;
+	margin-left:70px;
+}
+
+#contact p{
+	margin-left:70px;
+}
+
+#contact-text {
+	width:55%;
+	float:left;
+}
+
+#contact-text li{
+	font-size:16px;
+	width:65%;
+	display:inline;
+	float:left;
+	margin-left:70px;
+	text-decoration:none;
+}
+
+#socialmedia {
+	float:left;
+	margin-left:25px;
+	margin-top:-25px;
+}
+
+#buggy-text{
+	float:left;
+	width:35%;
+	margin-left:70px;
+	color:white;
+	padding-top:15px;
+}
+
+#buggy-text p{
+	margin-left:20px;
+}
+
+#buggy-text a{
+	color:#CFCFCF;
+	text-decoration:underline;
+}
+
+#buggy-text a:hover{
+	text-decoration:none;
+}
+
+#buggy-table{
+	float:right;
+	width:60%;
+	margin-right:40px;
+	margin-left:35px;
+	margin-top:-390px;
+	color:white;
+	font-family:"CrimsonRoman", Georgia, serif;
+}
+
+#buggy-table a{
+	color:#CFCFCF;
+	text-decoration:underline;
+}
+
+#buggy-table a:hover{
+	text-decoration:none;
+}
+
+/*Buggy Table CSS copied from 2010*/
+#buggy-tabletable{
+  min-width: 488px;
+  border-collapse: collapse;
+  margin: auto;
+}
+#buggy-table *html table{
+  width: expression( document.body.clientWidth < 890 ? "488px" : "auto" );
+}
+#buggy-table td{
+  font-size:18px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+  border-bottom: 1px solid #888888;
+}
+#buggy-table th{
+  font-size:20px;
+  text-align: left;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+}
+#buggy-table tr{
+  overflow: auto;
+}
+/*End of copied CSS*/
+
+#booth-categories{
+	text-decoration:none;
+	font-size:22px;
+	margin-left:450px;
+}
+
+#booth-categories li{
+	list-style:none;
+	padding-left:15px;
+}
+
+#booth-table {
+	color:white;
+	margin-top:30px;
+}
+
+#mobot-text{
+		float:left;
+		width:35%;
+		margin-left:70px;
+		color:white;
+		padding-top:15px;
+}
+
+#mobot-info{
+	float:right;
+	color:white;
+	margin-top:30px;
+	width:60%;
+	margin-top:-150px;
+}
+
+#mobot-text a{
+	color:#CFCFCF;
+	text-decoration:underline;
+}
+
+#mobot-text a:hover{
+	text-decoration:none;
+}
+
+#entertainment-text{
+	color:white;
+	float:left;
+	width:35%;
+	margin-left:70px;	
+	font-size:18px;
+}
+
+#entertainment-text ul{
+	list-style:none;
+	margin-left:-20px;
+}
+
+#entertainment-text a{
+	text-decoration:underline;
+	color:#CFCFCF;
+}
+
+#entertainment-text a:hover{
+	text-decoration:none;
+}
+
+#entertainment-info{
+	color:white;
+	float:right;
+	width:55%;
+	margin-left:10px;
+	font-size:18px;
+}
+
+#entertainment-info ul{
+	list-style:none;
+}
+
+#entertainment-info a{
+	color:#CFCFCF;
+	text-decoration:underline;
+}
+
+#entertainment-info a:hover{
+	text-decoration:none;
+}
+@font-face {
+    font-family: 'BonvenoCFLight';
+    src: url('BonvenoCF-Light-webfont.eot');
+    src: url('BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BonvenoCF-Light-webfont.woff') format('woff'),
+         url('BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('BonvenoCF-Light-webfont.svg#BonvenoCFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('Crimson-Roman-webfont.eot');
+    src: url('Crimson-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Crimson-Roman-webfont.woff') format('woff'),
+         url('Crimson-Roman-webfont.ttf') format('truetype'),
+         url('Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
