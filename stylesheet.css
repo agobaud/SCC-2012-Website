@@ -1,5 +1,7 @@
 body{
 	background-image:url('images/cross_scratches.png');
+  margin:0;
+  padding:0;
 	font-family:"CrimsonRoman", Georgia, serif;
 }
 
@@ -20,7 +22,6 @@ nav{
 	background-color:#DEDEDE;
 	height:35px;
 	width:100%;
-	margin-left:-8px;
 	display:inline;
 }
 
@@ -52,10 +53,9 @@ nav img {
 
 #main {
 	background-color:#003F87;
-	margin-left:-8px;
-	margin-right:-8px;
 	padding-bottom: 15px;
-	display:table;
+  width:100%;
+	display:inline-table;
 }
 
 #main-content {
@@ -63,18 +63,16 @@ nav img {
 	color:white;
 	padding-top:15px;
 	width:65%;
-	float:left;
+	/* float:left; */
+  display:block;
 }
 
 #main p{
-	margin-left:70px;
-	margin-right:70px;
 	font-size:20px;
 	color:white;
 }
 
 #weather {
-	display:inline;
 	float:right;
 	padding-right:70px;
 	padding-top:25px;
@@ -82,9 +80,7 @@ nav img {
 
 #contact{
 	background-color:#DEDEDE;
-	display:table;
-	margin-left:-8px;
-	margin-right:-8px;
+	display:inline-table;
 	margin-top:-30px;
 	font-family:"BonvenoCFLight", Arial, sans-serif;
 }
@@ -155,10 +151,8 @@ nav img {
 
 #buggy-table{
 	float:right;
-	width:60%;
-	margin-right:40px;
-	margin-left:35px;
-	margin-top:-390px;
+	width:54%;
+	margin-right:10px;
 	color:white;
 	font-family:"CrimsonRoman", Georgia, serif;
 }
