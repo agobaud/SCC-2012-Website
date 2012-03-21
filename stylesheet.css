@@ -46,7 +46,8 @@ nav a:hover{
 	text-decoration:underline;
 	color:black;
 }
-
+counter {
+}
 nav img {
 	padding:10px;
 }
@@ -54,6 +55,7 @@ nav img {
 #main {
 	background-color:#003F87;
 	padding-bottom: 15px;
+margin-bottom:15px;
   width:100%;
 	display:inline-table;
 }
@@ -61,14 +63,13 @@ nav img {
 #main-content {
 	margin-left:70px;
 	color:white;
+	font-size:20px;
 	padding-top:15px;
 	width:65%;
-	/* float:left; */
-  display:block;
+  float:left;
 }
 
 #main p{
-	font-size:20px;
 	color:white;
 }
 

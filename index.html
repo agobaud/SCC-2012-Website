@@ -3,8 +3,19 @@
 
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="stylesheet.css">
-		<link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="stylesheet.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+          <script src="jquery.jcountdown1.4.min.js" type="text/javascript" charset="utf-8"></script>
+          <link rel="stylesheet" href="font.css">
+    <script type="text/javascript">
+      $(function(){
+        $('#counter').countdown({
+          "date": new Date(2012,03,19,15),
+          "htmlTemplate": "%d days %h hours %i mins %s sec til Carnival opens on April 19th!"
+        });
+
+      });
+    </script>
 	<title>CMU's Spring Carnival 2012: As Seen On TV</title>
 	
 </head>
@@ -33,12 +44,10 @@
 		<section id ="main-content">
 			<h2>Come join the fun!</h2>
 			<p>The Carnegie Mellon University Spring Carnival is the biggest annual event in the school year. Student organizations across campus, whether independent or Greek, work very hard to succeed in uniquely competitive events featured during the three-day period.</p>
+<div id="counter"></div>
 		</section>
 		<section id="weather">
 			<a href="http://www.showmyweather.com/" title="Show My Weather Forecast" onclick="window.open(this.href);return(false);"><script type="text/javascript" src="http://www.showmyweather.com/weather_widget.php?int=0&type=js&country=us&state=Pennsylvania&city=Pittsburgh&smallicon=1&current=1&forecast=1&background_color=ffffff&color=000000&width=175&padding=10&border_width=1&border_color=000000&font_size=11&font_family=Verdana&showicons=1&measure=F&d=2012-03-13"></script></a><div style="width:197px;text-align:center;font-size:0.6em;margin-top:0.5em;"></div>
-		</section>
-		<section id="main-content">
-			COUNTDOWN TO CARNIVAL HERE
 		</section>
 	</section>
 	
