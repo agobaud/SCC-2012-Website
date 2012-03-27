@@ -8,7 +8,13 @@ body{
 header {
 	font-family:"BonvenoCFLight", Arial, sans-serif;
 	margin-top:45px;
+}
 
+header h1 {
+  display:inline-block;
+  margin-top:70px;
+  margin-left: 25px;
+  font-size: 35px;
 }
 
 header img{
@@ -19,15 +25,6 @@ header img{
 	margin-bottom:40px;
 }
 
-#sc2012  h1 {
-	float:right;
-	margin-right:20%;
-	font-size:35px;
-}
-
-#asot h1{
-	font-size:45px;
-}
 
 
 nav{
