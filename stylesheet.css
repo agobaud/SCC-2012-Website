@@ -6,7 +6,7 @@ body{
 }
 
 header {
-	font-family:"BonvenoCFLight", Arial, sans-serif;
+	font-family:"TeXGyreAdventorRegular", Times, sans-serif;
 	margin-top:45px;
 }
 
@@ -14,7 +14,7 @@ header h1 {
   display:inline-block;
   margin-top:70px;
   margin-left: 25px;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 header img{
@@ -28,7 +28,7 @@ header img{
 
 
 nav{
-	font-family:"BonvenoCFLight", Arial, sans-serif;
+	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
 	position:fixed;
 	top:0px;
 	background-color:#DEDEDE;
@@ -58,6 +58,7 @@ nav a:hover{
 	text-decoration:underline;
 	color:black;
 }
+
 counter {
 }
 nav img {
@@ -66,7 +67,9 @@ nav img {
 
 #main {
 	background-color:#003F87;
-	padding-bottom: 15px;
+	
+	font-size:20px;
+  padding-bottom: 15px;
 margin-bottom:15px;
   width:100%;
 	display:inline-table;
@@ -95,7 +98,7 @@ margin-bottom:15px;
 	background-color:#DEDEDE;
 	display:inline-table;
 	margin-top:-30px;
-	font-family:"BonvenoCFLight", Arial, sans-serif;
+	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
 }
 
 #contact h2 {
@@ -124,26 +127,22 @@ margin-bottom:15px;
 #socialmedia {
 	float:left;
 	margin-left:25px;
+  height: 20%;
 	margin-top:-25px;
 }
 
-#studentactivities p{
+#studentactivities{
 	font-size:14px;
-	clear:both;
-	margin-top:10px;
-	background-color:#DEDEDE;
-	font-family:"BonvenoCFLight", Arial, sans-serif;	
-	width:100%;
-	display:table;
+  margin-top:130px;
+	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
+  text-align:center;
 }
 
-#studentactivities img{
-	clear:both;
-}
 
 #buggy-text{
 	float:left;
 	width:35%;
+
 	margin-left:70px;
 	color:white;
 	padding-top:15px;
@@ -246,33 +245,10 @@ margin-bottom:15px;
 	text-decoration:none;
 }
 
-#entertainment-text{
-	color:white;
-	float:left;
-	width:35%;
-	margin-left:70px;	
-	font-size:18px;
-}
-
-#entertainment-text ul{
-	list-style:none;
-	margin-left:-20px;
-}
-
-#entertainment-text a{
-	text-decoration:underline;
-	color:#CFCFCF;
-}
-
-#entertainment-text a:hover{
-	text-decoration:none;
-}
 
 #entertainment-info{
 	color:white;
-	float:right;
-	width:55%;
-	margin-left:10px;
+	margin-left:70px;
 	font-size:18px;
 }
 
@@ -288,6 +264,35 @@ margin-bottom:15px;
 #entertainment-info a:hover{
 	text-decoration:none;
 }
+
+@font-face {
+    font-family: 'TeXGyreAdventorRegular';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff') format('woff'),
+         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('texgyreadventor-regular-webfont.svg#TeXGyreAdventorRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.selected {
+text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'TeXGyreAdventorBold';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff') format('woff'),
+         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bold-webfont.svg#TeXGyreAdventorBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @font-face {
     font-family: 'BonvenoCFLight';
     src: url('BonvenoCF-Light-webfont.eot');
@@ -309,3 +314,4 @@ margin-bottom:15px;
     font-weight: normal;
     font-style: normal;
 }
+
