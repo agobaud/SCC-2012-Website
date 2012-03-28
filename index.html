@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="utf-8" />
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="jquery.tweet.css">
@@ -19,7 +20,8 @@
         $("#socialmedia").tweet({
           username: "cmucarnival",
           avatar_size: 48,
-          count: 3,
+          count: 60,
+          template: "{avatar}{text}",
           loading_text: "loading tweets..."
         });
 
