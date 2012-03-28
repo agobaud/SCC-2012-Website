@@ -20,7 +20,8 @@
         $("#socialmedia").tweet({
           username: "cmucarnival",
           avatar_size: 48,
-          count: 3,
+          count: 60,
+          template: "{avatar}{text}",
           loading_text: "loading tweets..."
         });
 
@@ -32,22 +33,20 @@
 
 <body>
 	<nav>
-		<img src="images/CMU_logo_horiz_red.png" width="20%" alt="CMU Logo Horiz Black">
-		<ul>
-			<a href="index.html"><li class="selected">Home</li></a>
-			<a href="booth.html"><li>Booth</li></a>
-			<a href="buggy.html"><li>Buggy</li></a>
-			<a href="mobot.html"><li>Mobot</li></a>
-			<a href="entertainment.html"><li>Events</li></a>
-			<a href="http://alumni.cmu.edu/s/1410/alumni/index.aspx?sid=1410&gid=1&pgid=358" target="_blank"><li>Alumni</li></a>
-			<a href="webcam.html"><li>Webcam</li></a>
-			<a href="contact.html"><li>Committee</li></a>
-		</ul>
+	<section id="links">
+			<a href="index.html" class="selected">Home</a>
+			<a href="booth.html">Booth</a>
+			<a href="buggy.html">Buggy</a>
+			<a href="mobot.html">Mobot</a>
+			<a href="entertainment.html">Events</a>
+			<a href="http://alumni.cmu.edu/s/1410/alumni/index.aspx?sid=1410&gid=1&pgid=358" target="_blank">Alumni</a>
+			<a href="webcam.html">Webcam</a>
+			<a href="contact.html">Committee</a>
+		</section>
 	</nav>
-	
 	<header>
 		<img src="images/carnivallogo2.png">
-    <h1 id="sc2012">Spring Carnival 2012:<br />As Seen On TV</h1>
+    <h1 id="sc2012">Spring Carnival 2012<br />As Seen On TV</h1>
 	</header>
 	
 	<section id="main">

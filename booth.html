@@ -20,7 +20,8 @@
         $("#socialmedia").tweet({
           username: "cmucarnival",
           avatar_size: 48,
-          count: 3,
+          count: 60,
+          template: "{avatar}{text}",
           loading_text: "loading tweets..."
         });
 
@@ -32,22 +33,21 @@
 
 <body>
 	<nav>
-		<img src="images/CMU_logo_horiz_red.png" width="20%" alt="CMU Logo Horiz Black">
-		<ul>
-			<a href="index.html"><li>Home</li></a>
-			<a href="booth.html"><li class="selected">Booth</li></a>
-			<a href="buggy.html"><li>Buggy</li></a>
-			<a href="mobot.html"><li>Mobot</li></a>
-			<a href="entertainment.html"><li>Events</li></a>
-			<a href="http://alumni.cmu.edu/s/1410/alumni/index.aspx?sid=1410&gid=1&pgid=358" target="_blank"><li>Alumni</li></a>
-			<a href="webcam.html"><li>Webcam</li></a>
-			<a href="contact.html"><li>Committee</li></a>
-		</ul>
+	<section id="links">
+			<a href="index.html">Home</a>
+			<a href="booth.html" class="selected">Booth</a>
+			<a href="buggy.html">Buggy</a>
+			<a href="mobot.html">Mobot</a>
+			<a href="entertainment.html">Events</a>
+			<a href="http://alumni.cmu.edu/s/1410/alumni/index.aspx?sid=1410&gid=1&pgid=358" target="_blank">Alumni</a>
+			<a href="webcam.html">Webcam</a>
+			<a href="contact.html">Committee</a>
+		</section>
 	</nav>
 	
 	<header>
 		<img src="images/carnivallogo2.png">
-    <h1 id="sc2012">Spring Carnival 2012:<br />As Seen On TV</h1>
+		<h1 id="sc2012">Spring Carnival 2012<br /> As Seen On TV</h1>
 	</header>
 	
 	<section id="main">
@@ -57,7 +57,7 @@
 			</section>
 			<section id = "booth-table">
 			<h2>Participating Organizations</h2>
-			<table border="none" width="55%" style="padding-right:5px" >
+			<table width="55%" style="padding-right:5px" >
 				<tr>
 					<td style="border-bottom: 1px solid #888888">Fraternity</td>
 					<td style="border-bottom: 1px solid #888888">Sorority</td>
@@ -122,7 +122,6 @@
 			<br />
 			<h2>Competition Results</h2>
 				<p><i>Final Rankings will be posted after the Awards Ceremony in the main Carnival Tent on Saturday, April 21st.</i></p>
-				<section id="booth-categories">
 					<ul>
 						<li>Fraternities</li>
 						<li>Sororities</li>
@@ -130,7 +129,6 @@
 						<li>Blitz</li>
 						<li>Other Awards</li>
 					<ul>
-				</section>
 		</section>
 		
 	</section>
