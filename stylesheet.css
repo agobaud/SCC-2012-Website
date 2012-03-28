@@ -6,7 +6,7 @@ body{
 }
 
 header {
-	font-family:"TeXGyreAdventorRegular", Times, sans-serif;
+	font-family:"TeXGyreAdventorRegular", Arial, sans-serif;
 	margin-top:45px;
 	text-align: center;
 	padding-bottom: 10px;
@@ -29,7 +29,7 @@ header img{
 
 
 nav{
-	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
+	font-family:"BonvenoCFLight", Arial, sans-serif;
 	position:fixed;
 	top:0px;
 	background-color:#DEDEDE;
@@ -108,7 +108,7 @@ margin-bottom:15px;
 	background-image:url('images/cross_scratches.png');
 	display:inline-table;
 	margin-top:-30px;
-	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
+	font-family:"BonvenoCFLight", Arial, sans-serif;
 }
 
 #contact h2 {
@@ -140,6 +140,7 @@ display:inline-block;
 overflow:auto;
 width: 35%;
 	margin-top:-25px;
+	font-family:"TeXGyreAdventorRegular", Arial, sans-serif;
 }
 
 #studentactivities{
@@ -235,7 +236,8 @@ padding-right: 5%;
 width: 100%;
 }
 #booth-table table td, #booth-table table th {
-    border: 1px solid #888;
+/*    border: 1px solid #888;*/
+	padding-right:5px;
 }
 #booth-table table tr:first-child td {
     border-top: 0;
