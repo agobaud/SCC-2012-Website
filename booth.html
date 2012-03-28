@@ -2,9 +2,30 @@
 <html lang="en">
 
 <head>
+	<link rel="shortcut icon" href="favicon.ico" >
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="stylesheet.css">
-		<link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="jquery.tweet.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+          <script src="jquery.jcountdown1.4.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.tweet.js" type="text/javascript"></script>
+          <link rel="stylesheet" href="font.css">
+    <script type="text/javascript">
+      $(function(){
+        $('#counter').countdown({
+          "date": new Date(2012,03,19,15),
+          "htmlTemplate": "%d days %h hours %i mins %s sec til Carnival opens on April 19th!"
+        });
+
+        $("#socialmedia").tweet({
+          username: "cmucarnival",
+          avatar_size: 48,
+          count: 3,
+          loading_text: "loading tweets..."
+        });
+
+      });
+    </script>
 	<title>CMU's Spring Carnival 2012: As Seen On TV</title>
 	
 </head>
@@ -14,7 +35,7 @@
 		<img src="images/CMU_logo_horiz_red.png" width="20%" alt="CMU Logo Horiz Black">
 		<ul>
 			<a href="index.html"><li>Home</li></a>
-			<a href="booth.html"><li selected="selected">Booth</li></a>
+			<a href="booth.html"><li class="selected">Booth</li></a>
 			<a href="buggy.html"><li>Buggy</li></a>
 			<a href="mobot.html"><li>Mobot</li></a>
 			<a href="entertainment.html"><li>Events</li></a>
@@ -35,7 +56,71 @@
 			<p>Booth is one of the biggest showpieces of Spring Carnival. Student organizations build multi-story structures around our annual theme (2012: As Seen On TV), hosting interactive games and elaborate decorations. The booths will be placed on Midway, which is located in the Morewood Gardens Parking Lot. Admission is free to view these booths.</p>
 			</section>
 			<section id = "booth-table">
-			<h2>Final Rankings</h2>
+			<h2>Participating Organizations</h2>
+			<table border="none" width="55%" style="padding-right:5px" >
+				<tr>
+					<td style="border-bottom: 1px solid #888888">Fraternity</td>
+					<td style="border-bottom: 1px solid #888888">Sorority</td>
+					<td style="border-bottom: 1px solid #888888">Independent</td>
+					<td style="border-bottom: 1px solid #888888">Blitz</td>
+				</tr>
+				<tr>
+					<td>Sigma Phi Epsilon</td>
+					<td>Alpha Chi Omega</td>
+					<td>Taiwanese Student Association</td>
+					<td>Fringe</td>
+				</tr>
+				<tr>
+					<td>Alpha Epsilon Pi</td>
+					<td>Delta Delta Delta</td>
+					<td>Student Dormitory Council</td>
+					<td>Alpha Kappa Psi</td>
+				</tr>
+				<tr>
+					<td>Delta Tau Delta</td>
+					<td>Kappa Alpha Theta</td>
+					<td>Asian Student Association</td>
+					<td>Stever House</td>
+				</tr>
+				<tr>
+					<td>Beta Theta Pi</td>
+					<td>Kappa Kappa Gamma</td>
+					<td>KGB</td>
+					<td>Astronomy Club</td>
+				</tr>
+				<tr>
+					<td>Sigma Alpha Epsilon</td>
+					<td>Delta Gamma</td>
+					<td>Singapore Student Association</td>
+					<td>Donner/Scobell</td>
+				</tr>
+				<tr>
+					<td>Kappa Sigma</td>
+					<td></td>
+					<td>Mayur/ISU</td>
+					<td>BioSAC</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Mudge House</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Spirit</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Lambda Phi Epsilon</td>
+				</tr>
+			</table>
+			<br />
+			<h2>Competition Results</h2>
 				<p><i>Final Rankings will be posted after the Awards Ceremony in the main Carnival Tent on Saturday, April 21st.</i></p>
 				<section id="booth-categories">
 					<ul>
@@ -54,12 +139,12 @@
 		<h2>Contact Us!</h2>
 		<section id="contact-text">
 			<p>For more information about Spring Carnival 2012, please email us at  <a href="mailto:sc0v@andrew.cmu.edu">sc0v@andrew.cmu.edu</a>. Otherwise, please visit our <a href="committee.html">Committee page</a> to get a list of our committee members!</p>
+				<p><a href="http://www.facebook.com/springcarnival"><img src="images/facebook_32.png" align="middle" alt="Spring Carnival on Facebook!"></a> Find us on Facebook!
+					<br /> 
+				<a href="https://twitter.com/#!/cmucarnival"><img src="images/twitter_32.png" align="middle" alt="Spring Carnival on Twitter!"></a> Follow us on Twitter!</p>
 		</section>
-		<section id="socialmedia">
-			<a href="http://www.facebook.com/springcarnival"><img src="images/facebook_32.png" align="middle" alt="Spring Carnival on Facebook!"></a> Find us on Facebook!
-				<br /> 
-			<a href="https://twitter.com/#!/cmucarnival"><img src="images/twitter_32.png" align="middle" alt="Spring Carnival on Twitter!"></a> Follow us on Twitter!
-		</section>
+		<div id="socialmedia">
+		</div>
 		<section id="studentactivities">
 			<center>
 				<br />
