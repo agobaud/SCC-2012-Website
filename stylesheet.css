@@ -9,6 +9,7 @@ header {
 	font-family:"TeXGyreAdventorRegular", Times, sans-serif;
 	margin-top:45px;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 header h1 {
@@ -32,12 +33,12 @@ nav{
 	position:fixed;
 	top:0px;
 	background-color:#DEDEDE;
-	height:35px;
+	height:32px;
 	width:100%;
 	background-image: url("images/CMU_logo_horiz_red.png");
 	background-repeat: no-repeat;
-	background-size: 340px 30px;
-	background-position: 0px 5px;
+	background-size: 300px 25px;
+	background-position: 5px 5px;
 }
 @media all and (min-width: 1333px) {
 	nav{
@@ -47,11 +48,19 @@ nav{
 
 @media all and (max-width: 1332px) {
 	nav #links{
-		margin-left: 360px;
+		margin-left: 300px;
 	}
 }
 nav #links {
+	margin-top: 3px;
+}
+nav #logolink {
+	display: block;
+	height: 25px;
+	width: 300px;
 	margin-top: 5px;
+	margin-left: 5px;
+float:left;
 }
 
 
@@ -69,7 +78,6 @@ nav #links a:hover{
 
 #main {
 	background-color:#003F87;
-	
 	font-size:20px;
   padding-bottom: 15px;
 margin-bottom:15px;
@@ -120,16 +128,15 @@ margin-bottom:15px;
 #contact-text li{
 	font-size:16px;
 	width:65%;
-	display:inline;
-	float:left;
+	display:inline-block;
 	margin-left:70px;
 	text-decoration:none;
 }
 
 #socialmedia {
-	float:left;
 	margin-left:25px;
   height: 200px;
+display:inline-block;
 overflow:auto;
 width: 35%;
 	margin-top:-25px;
@@ -137,8 +144,8 @@ width: 35%;
 
 #studentactivities{
 	font-size:14px;
-  margin-top:130px;
 	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
+margin-top:50px;
   text-align:center;
 }
 
