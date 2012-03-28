@@ -4,14 +4,23 @@
 <head>
 	<meta charset="utf-8" />
   <link rel="stylesheet" href="stylesheet.css">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="jquery.tweet.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
           <script src="jquery.jcountdown1.4.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.tweet.js" type="text/javascript"></script>
           <link rel="stylesheet" href="font.css">
     <script type="text/javascript">
       $(function(){
         $('#counter').countdown({
           "date": new Date(2012,03,19,15),
           "htmlTemplate": "%d days %h hours %i mins %s sec til Carnival opens on April 19th!"
+        });
+
+        $("#socialmedia").tweet({
+          username: "cmucarnival",
+          avatar_size: 48,
+          count: 3,
+          loading_text: "loading tweets..."
         });
 
       });
@@ -57,12 +66,10 @@
 		<h2>Contact Us!</h2>
 		<section id="contact-text">
 			<p>For more information about Spring Carnival 2012, please email us at  <a href="mailto:sc0v@andrew.cmu.edu">sc0v@andrew.cmu.edu</a>. Otherwise, please visit our <a href="committee.html">Committee page</a> to get a list of our committee members!</p>
-		</section>
-		<section id="socialmedia">
-			<a href="http://www.facebook.com/springcarnival"><img src="images/facebook_32.png" align="middle" alt="Spring Carnival on Facebook!"></a> Find us on Facebook!
-				<br /> 
-			<a href="https://twitter.com/#!/cmucarnival"><img src="images/twitter_32.png" align="middle" alt="Spring Carnival on Twitter!"></a> Follow us on Twitter!
-		</section>
+      </section>
+		<div id="socialmedia">
+		</div>
+
 		<section id="studentactivities">
 			<center>
 				<br />
