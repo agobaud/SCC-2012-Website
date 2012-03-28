@@ -281,9 +281,34 @@ list-style:none;
 }
 
 
+#entertainment-text{
+	color:white;
+	float:left;
+	width:35%;
+	margin-left:70px;	
+	font-size:18px;
+}
+
+#entertainment-text ul{
+	list-style:none;
+	margin-left:-20px;
+}
+
+#entertainment-text a{
+	text-decoration:underline;
+	color:#CFCFCF;
+}
+
+#entertainment-text a:hover{
+	text-decoration:none;
+}
+
 #entertainment-info{
 	color:white;
-	margin-left:70px;
+	float:right;
+	width:55%;
+	margin-left:10px;
+	font-size:18px;
 }
 
 #entertainment-info ul{
@@ -298,7 +323,6 @@ list-style:none;
 #entertainment-info a:hover{
 	text-decoration:none;
 }
-
 @font-face {
     font-family: 'TeXGyreAdventorRegular';
     src: url('texgyreadventor-regular-webfont.eot');
