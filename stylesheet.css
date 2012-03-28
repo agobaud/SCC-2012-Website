@@ -33,11 +33,11 @@ nav{
 	position:fixed;
 	top:0px;
 	background-color:#DEDEDE;
-	height:32px;
+	height:28px;
 	width:100%;
 	background-image: url("images/CMU_logo_horiz_red.png");
 	background-repeat: no-repeat;
-	background-size: 300px 25px;
+	background-size: 200px 18px;
 	background-position: 5px 5px;
 }
 @media all and (min-width: 1333px) {
@@ -48,7 +48,7 @@ nav{
 
 @media all and (max-width: 1332px) {
 	nav #links{
-		margin-left: 300px;
+		margin-left: 240px;
 	}
 }
 nav #links {
