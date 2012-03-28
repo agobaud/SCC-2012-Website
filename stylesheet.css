@@ -37,8 +37,8 @@ nav{
 	width:100%;
 	background-image: url("images/CMU_logo_horiz_red.png");
 	background-repeat: no-repeat;
-	background-size: 200px 18px;
-	background-position: 5px 5px;
+	background-size: 220px;
+	background-position: 20px 5px;
 }
 @media all and (min-width: 1333px) {
 	nav{
@@ -48,7 +48,7 @@ nav{
 
 @media all and (max-width: 1332px) {
 	nav #links{
-		margin-left: 240px;
+		margin-left: 290px;
 	}
 }
 nav #links {
