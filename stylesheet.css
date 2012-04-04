@@ -3,7 +3,7 @@ body{
 	background-position: top right;
   	margin:0;
   	padding:0;
-	font-family:"CrimsonRoman", Georgia, serif;
+	font-family:"LinuxLibertineORegular", Georgia, serif;
 }
 
 header {
@@ -65,6 +65,7 @@ position:absolute;
 height: 284px;
 opacity: .17;
 }
+
 nav #logolink {
 	display: block;
 	height: 25px;
@@ -89,7 +90,7 @@ nav #links a:hover{
 
 #main {
 	background-color:#003F87;
-	font-size:20px;
+	font-size:18px;
   padding-bottom: 15px;
 margin-bottom:15px;
   width:100%;
@@ -99,7 +100,7 @@ margin-bottom:15px;
 #main-content {
 	margin-left:70px;
 	color:white;
-	font-size:20px;
+	font-size:178x;
 	padding-top:15px;
 	width:65%;
   float:left;
@@ -156,7 +157,7 @@ width: 35%;
 
 #studentactivities{
 	font-size:14px;
-	font-family:"TeXGyreAdventorRegular", Ariel, sans-serif;
+	font-family:"TeXGyreAdventorRegular", Arial, sans-serif;
 margin-top:50px;
   text-align:center;
 }
@@ -190,7 +191,7 @@ margin-top:50px;
 	width:54%;
 	margin-right:10px;
 	color:white;
-	font-family:"CrimsonRoman", Georgia, serif;
+	font-family:"LinuxLibertineORegular", Georgia, serif;
 }
 
 #buggy-table a{
@@ -351,5 +352,17 @@ text-decoration: underline;
          url('Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'LinuxLibertineORegular';
+    src: url('linlibertine_re-4.7.5ro-webfont.eot');
+    src: url('linlibertine_re-4.7.5ro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('linlibertine_re-4.7.5ro-webfont.woff') format('woff'),
+         url('linlibertine_re-4.7.5ro-webfont.ttf') format('truetype'),
+         url('linlibertine_re-4.7.5ro-webfont.svg#LinuxLibertineORegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
