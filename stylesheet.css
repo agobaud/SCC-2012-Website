@@ -307,6 +307,11 @@ list-style:none;
 #entertainment-info a:hover{
 	text-decoration:none;
 }
+#webcam {
+
+	color:white;
+text-align: center;
+}
 @font-face {
     font-family: 'TeXGyreAdventorRegular';
     src: url('texgyreadventor-regular-webfont.eot');
