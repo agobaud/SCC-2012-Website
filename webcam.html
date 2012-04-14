@@ -12,9 +12,15 @@
   <link rel="stylesheet" href="font.css">
       <script type="text/JavaScript">
         <!--
-        function timedRefresh(timeoutPeriod) {
-          setTimeout("location.reload(true);",timeoutPeriod);
-        }
+
+      setTimeout('refreshImage()',20000);
+      function refreshImage() {
+      d = new Date();
+      $("#image").attr("src", "http://carnival.activitiesboard.org/image.jpg?"+d.getTime());
+      setTimeout('refreshImage()',20000);
+      }
+
+
         //   -->
       </script>
 
@@ -39,7 +45,7 @@
 	
 </head>
 
-<body onload="JavaScript:timedRefresh(20000);">
+<body>
 	<nav>
 <a id="logolink" href="http://www.cmu.edu"></a>
 	<section id="links">
@@ -61,7 +67,7 @@
 	<section id="main">
   <section id = "webcam">
   <h2>Webcam</h2>
-  <a href="http://carnival.activitiesboard.org/image.jpg"><img src="http://carnival.activitiesboard.org/image.jpg" width=75%></a>
+  <a href="http://carnival.activitiesboard.org/image.jpg"><img id="image" src="http://carnival.activitiesboard.org/image.jpg" width=75%></a>
 			</section>
 		<div id="clear"></div>
 	</section>
